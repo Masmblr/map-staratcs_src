@@ -1,0 +1,147 @@
+staratcs/fade
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/staratcs/flare_01
+			displacement 0 0 0 ~10.0
+			cullOnStartSolid
+			velocityType		static
+			velocityDir		linear
+			velocityMagnitude	5
+			velocity		0 0 0 ~3
+			accelerationType	static
+			accelerationDir		linear
+			acceleration		-90 -300 -80 ~15
+			accelerationMagnitude 	12
+			radius		5000 5 2
+			alpha		8000 1 .5
+			rotation	0 0 ~360
+			bounce		cull
+			lifeTime 4000
+		}
+		count infinite
+		delay 0
+		period 100 - ~0%
+	}
+}
+
+staratcs/fade2
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/staratcs/flare_01
+			displacement 0 0 0 ~10.0
+			cullOnStartSolid
+			velocityType		static
+			velocityDir		linear
+			velocityMagnitude	5
+			velocity		0 0 0 ~3
+			accelerationType	static
+			accelerationDir		linear
+			acceleration		90 -300 -80 ~15
+			accelerationMagnitude 	10
+			radius		5000 5 2
+			alpha		8000 1 .5
+			rotation	0 0 ~360
+			bounce		cull
+			lifeTime 4000
+		}
+		count infinite
+		delay 0
+		period 100 - ~0%
+	}
+}
+
+staratcs/stars
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/staratcs/smstar
+			displacement 0 0 0 ~300.0
+			cullOnStartSolid
+			velocityType		static
+			velocityDir		linear
+			velocityMagnitude	2
+			velocity		0 0 0 ~5
+			accelerationType	static
+			accelerationDir		linear
+			acceleration		70 0 0 ~15
+			accelerationMagnitude 	15
+			radius		6000 5 2.5
+			alpha		9000 1 .5
+			rotation	0 0 ~360
+			bounce		cull
+			lifeTime 30000
+		}
+		count infinite
+		delay 0
+		period 100 - ~0%
+	}
+}
+
+staratcs/meteorsturm
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/staratcs/komet_1
+			displacement 0 0 0 ~500.0
+			cullOnStartSolid
+			velocityType		static
+			velocityDir		linear
+			velocityMagnitude	1
+			velocity		1 1 1 1
+			accelerationType	static
+			accelerationDir		linear
+			acceleration		5 0 0 5
+			accelerationMagnitude 	30
+			radius		50 150 5
+			alpha		5000 1 .5
+			rotation	0 0 ~360
+			bounce		1
+			lifeTime 90000
+			realLight
+		}
+		count infinite
+		delay 1
+		period 9000 - ~0%
+	}
+}
+
+staratcs/meteorsturm2
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/staratcs/komet_2
+			displacement 0 0 0 ~500.0
+			cullOnStartSolid
+			velocityType		static
+			velocityDir		linear
+			velocityMagnitude	1
+			velocity		0 0 0 1
+			accelerationType	static
+			accelerationDir		linear
+			acceleration		1.8 0 0 ~1
+			accelerationMagnitude 	20
+			radius		100 300 5
+			alpha		5000 1 .5
+			rotation	0 0 ~360
+			bounce		1
+			lifeTime 90000
+			childTrailSystem staratcs/meteorite_trail
+		}
+		count 1
+		delay 9
+		period 100 - ~0%
+	}
+}
+

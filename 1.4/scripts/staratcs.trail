@@ -1,0 +1,15 @@
+staratcs/meteorite_trail
+{
+	beam 
+	{
+		shader textures/staratcs/flare_02
+		segments 1
+    	segmentTime 20000
+		fadeOutTime 20000
+		alpha 1 0
+		width 300 300
+		color { 1 0.8 0 } { 1 0 0 }
+	}
+} 
+
+
