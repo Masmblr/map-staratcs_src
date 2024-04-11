@@ -86,11 +86,11 @@ Some models I have created for the map: </br>
 [<img src="meta/preview_models/3.jpg" width="400"/>](meta/preview_models/3.jpg)
 
 ## Version History:
-| Version: | Date:        | Status: | Release Build (.pk3):       
-| ------- | ------------- | ------: | -----------------: |
-| 1.0 - 1.2 | 16/09/2012  | beta | :x:        |     
-| 1.3     | 17/09/2012  | beta | :x:        |     
-| 1.4     | 01/10/2012  | final | [💾](https://github.com/Masmblr/map-StarATCS_src/releases/) |
+| Version: | Date:        | Status: |
+| ------- | ------------- | ------: |
+| 1.0 - 1.2 | 16/09/2012  | beta |
+| 1.3     | 17/09/2012  | beta |
+| 1.4     | 01/10/2012  | release |
 
 ## How-To
 **Binary**:
@@ -285,7 +285,7 @@ textures\staratcs\zmisc_02doverlayA.jpg <sup>[1](#Credit-1)</sup>
 ***
 
 ### Credit-1
-[Matthias "Masmblr Peters"](mailto:masmblr@gmail.com) \
+[Matthias "Masmblr" Peters](mailto:masmblr@gmail.com) \
 Content: Map, Textures, Shaders \
 License: [MIT License](https://opensource.org/license/mit/).
 (See "LICENSE" file for more Informations.)
